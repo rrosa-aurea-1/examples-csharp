@@ -6,7 +6,7 @@ namespace Neo.SmartContract
     {
         public static void Main ( )
         {
-            Storage.Put (Storage.CurrentContext, "Hello", "World") ;
+            Storage. Put (Storage.CurrentContext, "Hello ", " World") ;
         }
     }
 }
