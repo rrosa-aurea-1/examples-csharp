@@ -4,9 +4,9 @@ namespace Neo.SmartContract
 {
     public class HelloWorld : Framework.SmartContract
     {
-        public static void Main()
+        public static void Main ( )
         {
-            Storage.Put(Storage.CurrentContext, "Hello", "World");
+            Storage.Put (Storage.CurrentContext, "Hello", "World") ;
         }
     }
 }
