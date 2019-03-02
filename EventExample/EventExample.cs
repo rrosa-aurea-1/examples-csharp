@@ -10,6 +10,8 @@ namespace Neo.SmartContract
         public static event Action<byte[], string, BigInteger> event_name;
 
         public static event Action<byte[], BigInteger> event2;
+        
+        public static event Action<byte[], BigInteger> event3;
 
         public static bool Main()
         {
