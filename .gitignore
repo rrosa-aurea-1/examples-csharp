@@ -240,3 +240,12 @@ ModelManifest.xml
 
 # FAKE - F# Make
 .fake/
+.idea/.idea.examples/.idea/workspace.xml
+.idea/.idea.examples/.idea/vcs.xml
+.idea/.idea.examples/.idea/modules.xml
+.idea/.idea.examples/.idea/misc.xml
+.idea/.idea.examples/.idea/indexLayout.xml
+.idea/.idea.examples/.idea/encodings.xml
+.idea/.idea.examples/.idea/contentModel.xml
+.idea/.idea.examples/.idea/.name
+.idea/.idea.examples/riderModule.iml
