@@ -1,3 +1,4 @@
+using System;
 using Neo.SmartContract.Framework.Services.Neo;
 using Neo.SmartContract.Framework;
 
@@ -28,6 +29,15 @@ namespace Neo.SmartContract
             Runtime.Notify(tx_sm.Get("wrd").AsBigInteger()); // will print '50'
             Runtime.Notify(Storage.Get(Storage.CurrentContext, "user\x00xyz").AsBigInteger()); // will print '20'
             Runtime.Notify(Storage.Get(Storage.CurrentContext, "tx\u0000xyz").AsBigInteger()); // will print '40'
+        }
+        
+        public static void  printText()
+        {
+            for (int i = 0; i < 10; i++)
+            {
+                Console.Out.WriteLine("Teste" +i);
+                Console.Out.WriteLine("Teste" +i);
+            }
         }
     }
 }
